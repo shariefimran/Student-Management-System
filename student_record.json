@@ -1,0 +1,38 @@
+[
+    {
+        "name": "iiiii",
+        "age": 20,
+        "Register_Number": "2026MCA ",
+        "course": "MCA"
+    },
+    {
+        "name": "imran",
+        "age": 20,
+        "Register_Number": "2026MCA1",
+        "course": "MCA"
+    },
+    {
+        "name": "sharief",
+        "age": 20,
+        "Register_Number": "2026MCA002",
+        "course": "MCA"
+    },
+    {
+        "name": "rrr",
+        "age": 20,
+        "Register_Number": "2026NCC000",
+        "course": "NCC"
+    },
+    {
+        "name": "jjj",
+        "age": 20,
+        "Register_Number": "2026NCC002",
+        "course": "NCC"
+    },
+    {
+        "name": "hhh",
+        "age": 30,
+        "Register_Number": "2026NCC003",
+        "course": "NCC"
+    }
+]
