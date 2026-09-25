@@ -17,28 +17,58 @@ def view_students():
 def add_student():
     """Here we will add the student admission information."""
 
-    student_name = input("Please Enter the valid name: ").strip().lower()
+    name_validation =False
+    while not name_validation:
+        student_name = input("Please Enter the valid name: ").strip().lower()
+        words=student_name.split()
+        
+        name_validation=student_name!="" and all(word.isalpha()for word in words)
 
-    try:
-        age = int(input("Please Enter the student age: "))
-    except ValueError:
-        print("Please Enter a valid age")
-        return False
+    """ this code will validate the age """
+    age_validation = False
 
-    course = input("Please Enter the course: ").strip().upper()
+    while not age_validation:
+        try:
+            age = int(input("Please Enter the student age : "))
+        except ValueError:
+            print("Please ennter age in numbers")
+            continue
+        if age < 18:
+            print("Please enter the valid age")
+        else:
+            age_validation = True
+           
+    """ This code will check the courses we have """
+    course_validation = False
 
-    count=0
+    courses = [
+    "MCA",
+    "MBA",
+    "BSC",
+    "BTECH",
+    "BE",
+    "MCOM",
+    "BCA"
+]
 
-    for student in students:
-        if student['course'] == course:
-            count+=1
+    while not course_validation:
+        course = input("Please Enter the course: ").strip().upper()
 
-    if age < 18:
-        print("Admission Not possible for degree")
-        return False
-    register_number=f"2026{course}{count +1:03d}"
-
-    print("Student data stored successfully")
+        if course in courses:
+            course_validation = True
+        else:
+            print("Invalid Course")
+    """ this will validate the duplicate register number and generate the new register number """
+    next_number=1
+    register_available=False
+    while not register_available:
+        register_available=True
+        register_number=f"2026{course}{next_number:03d}"
+        for student in students:
+            if student["Register_Number"] == register_number:
+                register_available=False
+                next_number+=1
+    print(f"Register Number generated Successfully and your register nuber is : {register_number}")
 
     student = {
         "name": student_name,

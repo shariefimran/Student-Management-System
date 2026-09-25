@@ -34,5 +34,23 @@
         "age": 30,
         "Register_Number": "2026NCC003",
         "course": "NCC"
+    },
+    {
+        "name": "imran sharief",
+        "age": 22,
+        "Register_Number": "2026MCA004",
+        "course": "MCA"
+    },
+    {
+        "name": "imran",
+        "age": 25,
+        "Register_Number": "2026MCA005",
+        "course": "MCA"
+    },
+    {
+        "name": "sharief",
+        "age": 34,
+        "Register_Number": "2026MCA006",
+        "course": "MCA"
     }
 ]
