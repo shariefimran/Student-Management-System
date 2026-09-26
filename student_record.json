@@ -3,75 +3,85 @@
         "name": "iiiii",
         "age": 20,
         "Register_Number": "2026MCA001",
-        "course": "MCA"
+        "course": "MCA",
+        "date_of_birth": "N/A"
     },
     {
         "name": "imran",
         "age": 20,
         "Register_Number": "2026MCA002",
-        "course": "MCA"
+        "course": "MCA",
+        "date_of_birth": "N/A"
     },
     {
         "name": "sharief",
         "age": 20,
         "Register_Number": "2026MCA003",
-        "course": "MCA"
+        "course": "MCA",
+        "date_of_birth": "N/A"
     },
     {
         "name": "rrr",
         "age": 20,
         "Register_Number": "2026NCC001",
-        "course": "NCC"
+        "course": "NCC",
+        "date_of_birth": "N/A"
     },
     {
         "name": "jjj",
         "age": 20,
         "Register_Number": "2026NCC002",
-        "course": "NCC"
+        "course": "NCC",
+        "date_of_birth": "N/A"
     },
     {
         "name": "hhh",
         "age": 30,
         "Register_Number": "2026NCC003",
-        "course": "NCC"
+        "course": "NCC",
+        "date_of_birth": "N/A"
     },
     {
         "name": "imran sharief",
         "age": 22,
         "Register_Number": "2026MCA004",
-        "course": "MCA"
+        "course": "MCA",
+        "date_of_birth": "N/A"
     },
     {
         "name": "imran",
         "age": 25,
         "Register_Number": "2026MCA005",
-        "course": "MCA"
+        "course": "MCA",
+        "date_of_birth": "N/A"
     },
     {
         "name": "sharief",
         "age": 34,
         "Register_Number": "2026MCA006",
-        "course": "MCA"
+        "course": "MCA",
+        "date_of_birth": "N/A"
     },
     {
         "name": "imran",
         "age": 25,
         "Register_Number": "2026MCA007",
-        "course": "MCA"
+        "course": "MCA",
+        "date_of_birth": "N/A"
     },
     {
         "name": "imran",
-        "Date-Of-Birth": "1992-08-26",
         "age": 25,
         "Register_Number": "2026MCA008",
-        "course": "MCA"
+        "course": "MCA",
+        "date_of_birth": "1992-08-26"
     },
     {
         "name": "imran",
-        "Date-Of-Birth": "1992-08-26",
         "age": 25,
         "Register_Number": "2026MCA009",
         "course": "MCA",
-        "gender": "MALE"
+        "gender": "MALE",
+        "date_of_birth": "1992-08-26"
     }
 ]

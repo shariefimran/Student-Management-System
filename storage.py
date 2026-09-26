@@ -15,24 +15,25 @@ def load_records():
 
     migration_needed = False
 
-    # Step 1: Check whether migration is required
+    # Step 1: Check and migrate register numbers
+    register_migration_needed = False
+
     for record in records:
         register_number = record["Register_Number"]
         last_three = register_number[-3:]
 
         if not last_three.isdigit() or last_three == "000":
-            migration_needed = True
+            register_migration_needed = True
             break
 
-    # Step 2: Migrate only if required
-    if migration_needed:
+    if register_migration_needed:
         course_counters = {}
 
         for record in records:
             course = record["course"]
 
             if course in course_counters:
-                course_counters[course] = course_counters[course] + 1
+                course_counters[course] += 1
             else:
                 course_counters[course] = 1
 
@@ -42,6 +43,24 @@ def load_records():
 
             record["Register_Number"] = new_register_number
 
+        migration_needed = True
+
+    # Step 2: Migrate Date of Birth
+    for record in records:
+
+        if "date_of_birth" not in record:
+
+            if "Date-Of-Birth" in record:
+                record["date_of_birth"] = record["Date-Of-Birth"]
+                del record["Date-Of-Birth"]
+
+            else:
+                record["date_of_birth"] = "N/A"
+
+            migration_needed = True
+
+    # Step 3: Save only if migration was required
+    if migration_needed:
         save_records(records)
 
     return records

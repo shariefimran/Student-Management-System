@@ -15,6 +15,7 @@ def view_students():
             print(f"Age    : {student['age']}")
             print(f"Register number : {student['Register_Number']}")
             print(f"Course : {student['course']}")
+            print(f"Date of Birth: {student['date_of_birth']}")
 
 
 def add_student():
@@ -109,7 +110,7 @@ def add_student():
 
     student = {
         "name": student_name,
-        "Date-Of-Birth":date_of_birth,
+        "date_of_birth":date_of_birth,
         "age": age,
         "Register_Number":register_number,
         "course": course,
