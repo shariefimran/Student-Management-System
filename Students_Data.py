@@ -61,6 +61,7 @@ def add_student():
             course_validation = True
         else:
             print("Invalid Course")
+    
     """ this will validate the duplicate register number and generate the new register number """
     next_number=1
     register_available=False
@@ -72,6 +73,8 @@ def add_student():
                 register_available=False
                 next_number+=1
     print(f"Register Number generated Successfully and your register nuber is : {register_number}")
+
+    """ this code will validate the date of birth """
 
     dob_validation=False
 
@@ -85,12 +88,32 @@ def add_student():
             print("Invalid Date Format Please enter in the yyyy-mm-dd")
             continue
 
+    """ this code will validate the gender"""
+    gender_validation=False
+
+    genders=[
+        "MALE",
+        "FEMALE",
+        "OTHER"
+    ]
+
+    while not gender_validation:
+        gender=input("Please Enter The Gender : ").strip().upper()
+
+        if gender in genders:
+            gender_validation =True
+        else:
+            print("Invalid Gender")
+        
+
+
     student = {
         "name": student_name,
         "Date-Of-Birth":date_of_birth,
         "age": age,
         "Register_Number":register_number,
-        "course": course
+        "course": course,
+        "gender": gender
     }
 
     return student
