@@ -1,3 +1,6 @@
+
+from datetime import datetime,date 
+
 students = []
 
 
@@ -70,8 +73,21 @@ def add_student():
                 next_number+=1
     print(f"Register Number generated Successfully and your register nuber is : {register_number}")
 
+    dob_validation=False
+
+    while not dob_validation:
+        date_of_birth=input("Please Enter The Data of birth (YYYY-MM-DD):")
+        try:
+              date_of_birth=datetime.strptime(date_of_birth,"%Y-%m-%d")
+              date_of_birth=str(date_of_birth.date())
+              dob_validation =True
+        except ValueError:
+            print("Invalid Date Format Please enter in the yyyy-mm-dd")
+            continue
+
     student = {
         "name": student_name,
+        "Date-Of-Birth":date_of_birth,
         "age": age,
         "Register_Number":register_number,
         "course": course
@@ -80,17 +96,3 @@ def add_student():
     return student
 
 
-# while True:
-
-#     student_data = add_student()
-
-#     if student_data:
-#         students.append(student_data)
-
-#     choice = input("Do you want to add another student yes / no: ")
-
-#     if choice.lower() == "no":
-#         break
-
-
-# view_students()

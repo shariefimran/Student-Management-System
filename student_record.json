@@ -52,5 +52,18 @@
         "age": 34,
         "Register_Number": "2026MCA006",
         "course": "MCA"
+    },
+    {
+        "name": "imran",
+        "age": 25,
+        "Register_Number": "2026MCA007",
+        "course": "MCA"
+    },
+    {
+        "name": "imran",
+        "Date-Of-Birth": "1992-08-26",
+        "age": 25,
+        "Register_Number": "2026MCA008",
+        "course": "MCA"
     }
 ]
