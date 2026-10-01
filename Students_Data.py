@@ -28,19 +28,19 @@ def add_student():
         
         name_validation=student_name!="" and all(word.isalpha()for word in words)
 
-    """ this code will validate the age """
-    age_validation = False
+    # """ this code will validate the age """
+    # age_validation = False
 
-    while not age_validation:
-        try:
-            age = int(input("Please Enter the student age : "))
-        except ValueError:
-            print("Please ennter age in numbers")
-            continue
-        if age < 18:
-            print("Please enter the valid age")
-        else:
-            age_validation = True
+    # while not age_validation:
+    #     try:
+    #         age = int(input("Please Enter the student age : "))
+    #     except ValueError:
+    #         print("Please ennter age in numbers")
+    #         continue
+    #     if age < 18:
+    #         print("Please enter the valid age")
+    #     else:
+    #         age_validation = True
            
     """ This code will check the courses we have """
     course_validation = False
@@ -78,11 +78,18 @@ def add_student():
     """ this code will validate the date of birth """
 
     dob_validation=False
+    
 
     while not dob_validation:
         date_of_birth=input("Please Enter The Data of birth (YYYY-MM-DD):")
         try:
+              today=datetime.today()
               date_of_birth=datetime.strptime(date_of_birth,"%Y-%m-%d")
+              
+              age=today.year-date_of_birth.year
+              if (today.month, today.day) < (date_of_birth.month, date_of_birth.day):
+                  age=age-1
+                  
               date_of_birth=str(date_of_birth.date())
               dob_validation =True
         except ValueError:

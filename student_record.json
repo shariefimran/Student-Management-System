@@ -83,5 +83,13 @@
         "course": "MCA",
         "gender": "MALE",
         "date_of_birth": "1992-08-26"
+    },
+    {
+        "name": "iiii",
+        "date_of_birth": "1992-08-26",
+        "age": 34,
+        "Register_Number": "2026MCA010",
+        "course": "MCA",
+        "gender": "MALE"
     }
 ]
