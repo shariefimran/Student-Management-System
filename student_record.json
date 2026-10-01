@@ -4,77 +4,88 @@
         "age": 20,
         "Register_Number": "2026MCA001",
         "course": "MCA",
-        "date_of_birth": "N/A"
+        "date_of_birth": "N/A",
+        "department": "Computer Applications"
     },
     {
         "name": "imran",
         "age": 20,
         "Register_Number": "2026MCA002",
         "course": "MCA",
-        "date_of_birth": "N/A"
+        "date_of_birth": "N/A",
+        "department": "Computer Applications"
     },
     {
         "name": "sharief",
         "age": 20,
         "Register_Number": "2026MCA003",
         "course": "MCA",
-        "date_of_birth": "N/A"
+        "date_of_birth": "N/A",
+        "department": "Computer Applications"
     },
     {
         "name": "rrr",
         "age": 20,
         "Register_Number": "2026NCC001",
         "course": "NCC",
-        "date_of_birth": "N/A"
+        "date_of_birth": "N/A",
+        "department": "N/A"
     },
     {
         "name": "jjj",
         "age": 20,
         "Register_Number": "2026NCC002",
         "course": "NCC",
-        "date_of_birth": "N/A"
+        "date_of_birth": "N/A",
+        "department": "N/A"
     },
     {
         "name": "hhh",
         "age": 30,
         "Register_Number": "2026NCC003",
         "course": "NCC",
-        "date_of_birth": "N/A"
+        "date_of_birth": "N/A",
+        "department": "N/A"
     },
     {
         "name": "imran sharief",
         "age": 22,
         "Register_Number": "2026MCA004",
         "course": "MCA",
-        "date_of_birth": "N/A"
+        "date_of_birth": "N/A",
+        "department": "Computer Applications"
     },
     {
         "name": "imran",
         "age": 25,
         "Register_Number": "2026MCA005",
         "course": "MCA",
-        "date_of_birth": "N/A"
+        "date_of_birth": "N/A",
+        "department": "Computer Applications"
     },
     {
         "name": "sharief",
         "age": 34,
         "Register_Number": "2026MCA006",
         "course": "MCA",
-        "date_of_birth": "N/A"
+        "date_of_birth": "N/A",
+        "department": "Computer Applications"
     },
     {
         "name": "imran",
         "age": 25,
         "Register_Number": "2026MCA007",
         "course": "MCA",
-        "date_of_birth": "N/A"
+        "date_of_birth": "N/A",
+        "department": "Computer Applications"
     },
     {
         "name": "imran",
         "age": 25,
         "Register_Number": "2026MCA008",
         "course": "MCA",
-        "date_of_birth": "1992-08-26"
+        "date_of_birth": "1992-08-26",
+        "department": "Computer Applications"
     },
     {
         "name": "imran",
@@ -82,7 +93,8 @@
         "Register_Number": "2026MCA009",
         "course": "MCA",
         "gender": "MALE",
-        "date_of_birth": "1992-08-26"
+        "date_of_birth": "1992-08-26",
+        "department": "Computer Applications"
     },
     {
         "name": "iiii",
@@ -90,6 +102,34 @@
         "age": 34,
         "Register_Number": "2026MCA010",
         "course": "MCA",
+        "gender": "MALE",
+        "department": "Computer Applications"
+    },
+    {
+        "name": "jjjj",
+        "date_of_birth": "1992-08-26",
+        "age": 34,
+        "Register_Number": "2026MCA011",
+        "course": "MCA",
+        "gender": "MALE",
+        "department": "Computer Applications"
+    },
+    {
+        "name": "hhh",
+        "date_of_birth": "1992-08-26",
+        "age": 34,
+        "Register_Number": "2026MCA012",
+        "course": "MCA",
+        "department": "Computer Applications",
+        "gender": "MALE"
+    },
+    {
+        "name": "ii",
+        "date_of_birth": "1992-08-26",
+        "age": 34,
+        "Register_Number": "2026MCA013",
+        "course": "MCA",
+        "department": "Computer Applications",
         "gender": "MALE"
     }
 ]

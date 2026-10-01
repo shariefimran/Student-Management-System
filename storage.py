@@ -1,5 +1,7 @@
 import json
 
+from Students_Data import departments
+
 
 def save_records(students):
     """Save all student data to a file."""
@@ -57,6 +59,20 @@ def load_records():
             else:
                 record["date_of_birth"] = "N/A"
 
+            migration_needed = True
+
+    #step 3 : Migrate Department
+
+    for record in records:
+         if "department" not in record:
+             
+                
+          if record["course"] in departments:
+
+            record["department"]=departments[record["course"]]
+          else:
+            record["department"] ="N/A"
+       
             migration_needed = True
 
     # Step 3: Save only if migration was required

@@ -3,6 +3,16 @@ from datetime import datetime,date
 
 students = []
 
+departments = {
+    "MCA"  : "Computer Applications",
+    "BCA"  : "Computer Applications",
+    "BTECH" : "Engineering",
+    "BE"    : "Engineering",
+    "MBA"   : "Management",
+    "MCOM"  : "Commerce",
+    "BSC"   : "Science"
+}
+
 
 def view_students():
     """This function will be used to view student data."""
@@ -16,6 +26,7 @@ def view_students():
             print(f"Register number : {student['Register_Number']}")
             print(f"Course : {student['course']}")
             print(f"Date of Birth: {student['date_of_birth']}")
+            print(f"Department: {student['department']}")
 
 
 def add_student():
@@ -28,19 +39,6 @@ def add_student():
         
         name_validation=student_name!="" and all(word.isalpha()for word in words)
 
-    # """ this code will validate the age """
-    # age_validation = False
-
-    # while not age_validation:
-    #     try:
-    #         age = int(input("Please Enter the student age : "))
-    #     except ValueError:
-    #         print("Please ennter age in numbers")
-    #         continue
-    #     if age < 18:
-    #         print("Please enter the valid age")
-    #     else:
-    #         age_validation = True
            
     """ This code will check the courses we have """
     course_validation = False
@@ -56,12 +54,13 @@ def add_student():
 ]
 
     while not course_validation:
-        course = input("Please Enter the course: ").strip().upper()
-
+        course = input("Please Enter the course: ").strip().upper()       
         if course in courses:
             course_validation = True
+            department = departments[course]
         else:
-            print("Invalid Course")
+            print("Invalid Course")       
+            
     
     """ this will validate the duplicate register number and generate the new register number """
     next_number=1
@@ -121,6 +120,7 @@ def add_student():
         "age": age,
         "Register_Number":register_number,
         "course": course,
+        "department":department,
         "gender": gender
     }
 
