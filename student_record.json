@@ -131,5 +131,15 @@
         "course": "MCA",
         "department": "Computer Applications",
         "gender": "MALE"
+    },
+    {
+        "name": "jj",
+        "date_of_birth": "1992-08-26",
+        "age": 34,
+        "Register_Number": "2026MCA014",
+        "course": "MCA",
+        "department": "Computer Applications",
+        "gender": "MALE",
+        "email": "imran@gmail.com"
     }
 ]
