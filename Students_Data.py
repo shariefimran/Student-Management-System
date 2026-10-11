@@ -28,6 +28,7 @@ def view_students():
             print(f"Department       : {student['department']}")
             print(f"Gender           : {student['gender']}")
             print(f"Email            : {student['email']}")
+            print(f"Phone           : {student['phone']}")
 
 
 def add_student():
@@ -173,6 +174,22 @@ def add_student():
         else:
             print("Invalid Email")
 
+
+    #validate phone number
+
+    phone_validation=False
+
+    while not phone_validation:
+            phone =input("Enter the phone number")
+            if len(phone) == 10 and phone.isdigit():
+                phone_validation =True
+            else:
+                print("Number is less than 10 digit please check")
+
+
+                
+    
+
     # Create student record
     student = {
         "name": student_name,
@@ -182,7 +199,8 @@ def add_student():
         "course": course,
         "department": department,
         "gender": gender,
-        "email": email
+        "email": email,
+        "phone":phone
     }
 
     return student
