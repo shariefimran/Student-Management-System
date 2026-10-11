@@ -75,6 +75,26 @@ def load_records():
        
             migration_needed = True
 
+    #Step 4 : Migrate Email
+
+    for record in records:
+        if "email" not in record:
+            record['email'] ="N/A"
+
+            migration_needed =True
+    #step 5 : Migrate Gender
+
+    for record in records:
+        if "gender" not in record:
+            record['gender']="N/A"
+            migration_needed =True
+            
+             
+
+           
+
+
+
     # Step 3: Save only if migration was required
     if migration_needed:
         save_records(records)

@@ -5,7 +5,9 @@
         "Register_Number": "2026MCA001",
         "course": "MCA",
         "date_of_birth": "N/A",
-        "department": "Computer Applications"
+        "department": "Computer Applications",
+        "email": "N/A",
+        "gender": "N/A"
     },
     {
         "name": "imran",
@@ -13,7 +15,9 @@
         "Register_Number": "2026MCA002",
         "course": "MCA",
         "date_of_birth": "N/A",
-        "department": "Computer Applications"
+        "department": "Computer Applications",
+        "email": "N/A",
+        "gender": "N/A"
     },
     {
         "name": "sharief",
@@ -21,7 +25,9 @@
         "Register_Number": "2026MCA003",
         "course": "MCA",
         "date_of_birth": "N/A",
-        "department": "Computer Applications"
+        "department": "Computer Applications",
+        "email": "N/A",
+        "gender": "N/A"
     },
     {
         "name": "rrr",
@@ -29,7 +35,9 @@
         "Register_Number": "2026NCC001",
         "course": "NCC",
         "date_of_birth": "N/A",
-        "department": "N/A"
+        "department": "N/A",
+        "email": "N/A",
+        "gender": "N/A"
     },
     {
         "name": "jjj",
@@ -37,7 +45,9 @@
         "Register_Number": "2026NCC002",
         "course": "NCC",
         "date_of_birth": "N/A",
-        "department": "N/A"
+        "department": "N/A",
+        "email": "N/A",
+        "gender": "N/A"
     },
     {
         "name": "hhh",
@@ -45,7 +55,9 @@
         "Register_Number": "2026NCC003",
         "course": "NCC",
         "date_of_birth": "N/A",
-        "department": "N/A"
+        "department": "N/A",
+        "email": "N/A",
+        "gender": "N/A"
     },
     {
         "name": "imran sharief",
@@ -53,7 +65,9 @@
         "Register_Number": "2026MCA004",
         "course": "MCA",
         "date_of_birth": "N/A",
-        "department": "Computer Applications"
+        "department": "Computer Applications",
+        "email": "N/A",
+        "gender": "N/A"
     },
     {
         "name": "imran",
@@ -61,7 +75,9 @@
         "Register_Number": "2026MCA005",
         "course": "MCA",
         "date_of_birth": "N/A",
-        "department": "Computer Applications"
+        "department": "Computer Applications",
+        "email": "N/A",
+        "gender": "N/A"
     },
     {
         "name": "sharief",
@@ -69,7 +85,9 @@
         "Register_Number": "2026MCA006",
         "course": "MCA",
         "date_of_birth": "N/A",
-        "department": "Computer Applications"
+        "department": "Computer Applications",
+        "email": "N/A",
+        "gender": "N/A"
     },
     {
         "name": "imran",
@@ -77,7 +95,9 @@
         "Register_Number": "2026MCA007",
         "course": "MCA",
         "date_of_birth": "N/A",
-        "department": "Computer Applications"
+        "department": "Computer Applications",
+        "email": "N/A",
+        "gender": "N/A"
     },
     {
         "name": "imran",
@@ -85,7 +105,9 @@
         "Register_Number": "2026MCA008",
         "course": "MCA",
         "date_of_birth": "1992-08-26",
-        "department": "Computer Applications"
+        "department": "Computer Applications",
+        "email": "N/A",
+        "gender": "N/A"
     },
     {
         "name": "imran",
@@ -94,7 +116,8 @@
         "course": "MCA",
         "gender": "MALE",
         "date_of_birth": "1992-08-26",
-        "department": "Computer Applications"
+        "department": "Computer Applications",
+        "email": "N/A"
     },
     {
         "name": "iiii",
@@ -103,7 +126,8 @@
         "Register_Number": "2026MCA010",
         "course": "MCA",
         "gender": "MALE",
-        "department": "Computer Applications"
+        "department": "Computer Applications",
+        "email": "N/A"
     },
     {
         "name": "jjjj",
@@ -112,7 +136,8 @@
         "Register_Number": "2026MCA011",
         "course": "MCA",
         "gender": "MALE",
-        "department": "Computer Applications"
+        "department": "Computer Applications",
+        "email": "N/A"
     },
     {
         "name": "hhh",
@@ -121,7 +146,8 @@
         "Register_Number": "2026MCA012",
         "course": "MCA",
         "department": "Computer Applications",
-        "gender": "MALE"
+        "gender": "MALE",
+        "email": "N/A"
     },
     {
         "name": "ii",
@@ -130,7 +156,8 @@
         "Register_Number": "2026MCA013",
         "course": "MCA",
         "department": "Computer Applications",
-        "gender": "MALE"
+        "gender": "MALE",
+        "email": "N/A"
     },
     {
         "name": "jj",
