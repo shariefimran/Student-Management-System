@@ -30,6 +30,7 @@ def view_students():
             print(f"Email            : {student['email']}")
             print(f"Phone           : {student['phone']}")
             print(f"adress.         : {student['adress']}")
+            print(f"Admission_year       : {student['Admission_year']}")
 
 
 def add_student():
@@ -199,7 +200,27 @@ def add_student():
         else:
             Adress_validation = True
             print("Valid address")
+
+
+    #validate Admission Year
+
+    Admission_validation = False
+
+    while not Admission_validation:
+        Admission_year=input("Enter the year")
+        if len(Admission_year) == 4 and Admission_year.isdigit():
+            if int(Admission_year)<= datetime.today().year:
+                Admission_validation = True
+            else:
+                print("Admission year cannot be in future")
+        else:
+            print("Invalid year. Please enter a valid four digit year")
+
+
+
         
+
+            
         
         
 
@@ -218,7 +239,8 @@ def add_student():
         "gender": gender,
         "email": email,
         "phone":phone,
-        "adress": adress
+        "adress": adress,
+        "Admission_year": Admission_year
     }
 
     return student

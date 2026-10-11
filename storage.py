@@ -103,6 +103,14 @@ def load_records():
         if "adress" not in record:
             record['adress']='N/A'
             migration_needed=True
+
+    #Step 8 : Migrate Admission Year
+
+    for record in records:
+            if "Admission_year" not in record:
+                record['Admission_year']='N/A'
+                migration_needed=True
+
             
              
 

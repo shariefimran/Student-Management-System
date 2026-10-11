@@ -9,7 +9,8 @@
         "email": "N/A",
         "gender": "N/A",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "imran",
@@ -21,7 +22,8 @@
         "email": "N/A",
         "gender": "N/A",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "sharief",
@@ -33,7 +35,8 @@
         "email": "N/A",
         "gender": "N/A",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "rrr",
@@ -45,7 +48,8 @@
         "email": "N/A",
         "gender": "N/A",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "jjj",
@@ -57,7 +61,8 @@
         "email": "N/A",
         "gender": "N/A",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "hhh",
@@ -69,7 +74,8 @@
         "email": "N/A",
         "gender": "N/A",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "imran sharief",
@@ -81,7 +87,8 @@
         "email": "N/A",
         "gender": "N/A",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "imran",
@@ -93,7 +100,8 @@
         "email": "N/A",
         "gender": "N/A",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "sharief",
@@ -105,7 +113,8 @@
         "email": "N/A",
         "gender": "N/A",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "imran",
@@ -117,7 +126,8 @@
         "email": "N/A",
         "gender": "N/A",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "imran",
@@ -129,7 +139,8 @@
         "email": "N/A",
         "gender": "N/A",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "imran",
@@ -141,7 +152,8 @@
         "department": "Computer Applications",
         "email": "N/A",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "iiii",
@@ -153,7 +165,8 @@
         "department": "Computer Applications",
         "email": "N/A",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "jjjj",
@@ -165,7 +178,8 @@
         "department": "Computer Applications",
         "email": "N/A",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "hhh",
@@ -177,7 +191,8 @@
         "gender": "MALE",
         "email": "N/A",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "ii",
@@ -189,7 +204,8 @@
         "gender": "MALE",
         "email": "N/A",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "jj",
@@ -201,7 +217,8 @@
         "gender": "MALE",
         "email": "imran@gmail.com",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "kkkkk",
@@ -213,7 +230,8 @@
         "gender": "MALE",
         "email": "mail@gmail.com",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "nnn",
@@ -226,7 +244,8 @@
         "email": "mail@gmail.com",
         "Phone": "0987654321",
         "phone": "N/A",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "jjjj",
@@ -238,7 +257,8 @@
         "gender": "MALE",
         "email": "mail@gmail.com",
         "phone": "1234567890",
-        "adress": "N/A"
+        "adress": "N/A",
+        "Admission_year": "N/A"
     },
     {
         "name": "hhhhhhh",
@@ -250,7 +270,8 @@
         "gender": "MALE",
         "email": "mail@gmail.com",
         "phone": "1234567890",
-        "adress": "nnnnnnn"
+        "adress": "nnnnnnn",
+        "Admission_year": "N/A"
     },
     {
         "name": "hhhhhhhhhhh",
@@ -262,6 +283,20 @@
         "gender": "MALE",
         "email": "mail@gmail.com",
         "phone": "1234567890",
-        "adress": "jjjjjjjjjjjjjj"
+        "adress": "jjjjjjjjjjjjjj",
+        "Admission_year": "N/A"
+    },
+    {
+        "name": "hhhhhhh",
+        "date_of_birth": "1992-08-26",
+        "age": 34,
+        "Register_Number": "2026MCA020",
+        "course": "MCA",
+        "department": "Computer Applications",
+        "gender": "MALE",
+        "email": "mail@gmail.com",
+        "phone": "1234567890",
+        "adress": "jjjjjjj",
+        "Admission_year": "2026"
     }
 ]
