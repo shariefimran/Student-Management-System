@@ -22,13 +22,14 @@ def view_students():
         for student in students:
             print(f"Name             : {student['name']}")
             print(f"Age              : {student['age']}")
-            print(f"Register Number   : {student['Register_Number']}")
+            print(f"Register Number  : {student['Register_Number']}")
             print(f"Course           : {student['course']}")
             print(f"Date of Birth    : {student['date_of_birth']}")
             print(f"Department       : {student['department']}")
             print(f"Gender           : {student['gender']}")
             print(f"Email            : {student['email']}")
             print(f"Phone           : {student['phone']}")
+            print(f"adress.         : {student['adress']}")
 
 
 def add_student():
@@ -186,6 +187,22 @@ def add_student():
             else:
                 print("Number is less than 10 digit please check")
 
+    #Validate Address
+
+    Adress_validation= False
+
+    while not Adress_validation:
+        adress=input("Enter the permanent adress : ").strip()
+
+        if adress == "":
+            print("Adress cant be empty")          
+        else:
+            Adress_validation = True
+            print("Valid address")
+        
+        
+        
+
 
                 
     
@@ -200,7 +217,8 @@ def add_student():
         "department": department,
         "gender": gender,
         "email": email,
-        "phone":phone
+        "phone":phone,
+        "adress": adress
     }
 
     return student

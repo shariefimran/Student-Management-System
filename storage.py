@@ -96,6 +96,13 @@ def load_records():
         if "phone" not in record:
             record['phone']="N/A"
             migration_needed = True
+
+    #Step 7 : Migrate Address
+
+    for record in records:
+        if "adress" not in record:
+            record['adress']='N/A'
+            migration_needed=True
             
              
 
