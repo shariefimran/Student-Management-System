@@ -11,7 +11,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "imran",
@@ -25,7 +26,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "sharief",
@@ -39,7 +41,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "rrr",
@@ -53,7 +56,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "jjj",
@@ -67,7 +71,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "hhh",
@@ -81,7 +86,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "imran sharief",
@@ -95,7 +101,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "imran",
@@ -109,7 +116,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "sharief",
@@ -123,7 +131,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "imran",
@@ -137,7 +146,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "imran",
@@ -151,7 +161,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "imran",
@@ -165,7 +176,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "iiii",
@@ -179,7 +191,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "jjjj",
@@ -193,7 +206,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "hhh",
@@ -207,7 +221,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "ii",
@@ -221,7 +236,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "jj",
@@ -235,7 +251,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "kkkkk",
@@ -249,7 +266,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "nnn",
@@ -264,7 +282,8 @@
         "phone": "N/A",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "jjjj",
@@ -278,7 +297,8 @@
         "phone": "1234567890",
         "adress": "N/A",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "hhhhhhh",
@@ -292,7 +312,8 @@
         "phone": "1234567890",
         "adress": "nnnnnnn",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "hhhhhhhhhhh",
@@ -306,7 +327,8 @@
         "phone": "1234567890",
         "adress": "jjjjjjjjjjjjjj",
         "Admission_year": "N/A",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "hhhhhhh",
@@ -320,7 +342,8 @@
         "phone": "1234567890",
         "adress": "jjjjjjj",
         "Admission_year": "2026",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "gg",
@@ -334,7 +357,8 @@
         "phone": "1234567890",
         "adress": "jj",
         "Admission_year": "2026",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "hhh",
@@ -348,7 +372,8 @@
         "phone": "1234567890",
         "adress": "hh",
         "Admission_year": "2026",
-        "semester": "N/A"
+        "semester": "N/A",
+        "admission_date": "N/A"
     },
     {
         "name": "hhh",
@@ -362,6 +387,22 @@
         "phone": "1234567890",
         "adress": "mm",
         "Admission_year": "2026",
-        "semester": "1"
+        "semester": "1",
+        "admission_date": "N/A"
+    },
+    {
+        "name": "hhh",
+        "date_of_birth": "1992-08-26",
+        "age": 34,
+        "Register_Number": "2026MCA024",
+        "course": "MCA",
+        "department": "Computer Applications",
+        "gender": "MALE",
+        "email": "mail@gmail.com",
+        "phone": "1234567890",
+        "adress": "ddd",
+        "Admission_year": "2026",
+        "semester": "1",
+        "admission_date": "2026-10-13"
     }
 ]

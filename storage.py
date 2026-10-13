@@ -118,6 +118,12 @@ def load_records():
         if "semester" not in record:
             record['semester']='N/A'
             migration_needed=True
+    #Step 10 : Migrate Semester
+    
+    for record in records:
+        if "admission_date" not in record:
+            record['admission_date']='N/A'
+            migration_needed=True
 
     
 

@@ -32,6 +32,7 @@ def view_students():
             print(f"adress.         : {student['adress']}")
             print(f"Admission_year  : {student['Admission_year']}")
             print(f"semester       : {student['semester']}")
+            print(f"admission_date : {student['admission_date']}")
 
 
 def add_student():
@@ -183,7 +184,7 @@ def add_student():
     phone_validation=False
 
     while not phone_validation:
-            phone =input("Enter the phone number")
+            phone =input("Enter the phone number : ")
             if len(phone) == 10 and phone.isdigit():
                 phone_validation =True
             else:
@@ -208,7 +209,7 @@ def add_student():
     Admission_validation = False
 
     while not Admission_validation:
-        Admission_year=input("Enter the year")
+        Admission_year=input("Enter the year : ")
         if len(Admission_year) == 4 and Admission_year.isdigit():
             if int(Admission_year)<= datetime.today().year:
                 Admission_validation = True
@@ -230,6 +231,31 @@ def add_student():
                 print("Invalid semester please enter between 1 to 6")
         else:
             print("please eneter number not alphabets")
+
+
+    #validate Admission Date
+
+    admission_date_validation=False
+
+    while not admission_date_validation:
+        admission_date=input("please enter the admission date in YYYY-MM-DD : ")
+        
+        try:           
+            admission_date = datetime.strptime(
+    admission_date, "%Y-%m-%d"
+)
+            if admission_date.date() > datetime.today().date():
+                    print("Cannot accept a future date")
+            elif admission_date.year!= int(Admission_year):
+                    print("Invalid year. Please check")
+            else:                  
+                    admission_date=admission_date.strftime("%Y-%m-%d")
+                    admission_date_validation=True
+           
+        except ValueError:
+            print("please enter the valid date in YYYY-MM-DD format")
+
+
         
 
 
@@ -258,7 +284,8 @@ def add_student():
         "phone":phone,
         "adress": adress,
         "Admission_year": Admission_year,
-        "semester" : semester
+        "semester" : semester,
+        "admission_date" : admission_date
     }
 
     return student
