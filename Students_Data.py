@@ -30,7 +30,8 @@ def view_students():
             print(f"Email            : {student['email']}")
             print(f"Phone           : {student['phone']}")
             print(f"adress.         : {student['adress']}")
-            print(f"Admission_year       : {student['Admission_year']}")
+            print(f"Admission_year  : {student['Admission_year']}")
+            print(f"semester       : {student['semester']}")
 
 
 def add_student():
@@ -216,6 +217,22 @@ def add_student():
         else:
             print("Invalid year. Please enter a valid four digit year")
 
+    #validate Semester Year
+
+    semester_validation=False
+
+    while not semester_validation:
+        semester=input("Enter the semester : ")
+        if semester.isdigit() :
+            if 1<= int(semester) <=6:
+                semester_validation=True
+            else:
+                print("Invalid semester please enter between 1 to 6")
+        else:
+            print("please eneter number not alphabets")
+        
+
+
 
 
         
@@ -240,7 +257,8 @@ def add_student():
         "email": email,
         "phone":phone,
         "adress": adress,
-        "Admission_year": Admission_year
+        "Admission_year": Admission_year,
+        "semester" : semester
     }
 
     return student
