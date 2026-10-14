@@ -33,6 +33,7 @@ def view_students():
             print(f"Admission_year  : {student['Admission_year']}")
             print(f"semester       : {student['semester']}")
             print(f"admission_date : {student['admission_date']}")
+            print(f"student_status : {student['student_status']}")
 
 
 def add_student():
@@ -255,6 +256,31 @@ def add_student():
         except ValueError:
             print("please enter the valid date in YYYY-MM-DD format")
 
+    #Validate Student Status
+
+    status_validation = False
+    
+    status = [
+            "ACTIVE",
+            "INACTIVE",
+            "GRADUATED"
+        ]
+
+    while not status_validation:
+        student_status=input("Please Enter the Student Status : ").strip().upper()
+
+        if student_status in status:
+            print("Status Updated")
+            status_validation=True
+           
+        else:
+            print("Please enter the valid status")
+
+
+
+
+
+
 
         
 
@@ -285,7 +311,8 @@ def add_student():
         "adress": adress,
         "Admission_year": Admission_year,
         "semester" : semester,
-        "admission_date" : admission_date
+        "admission_date" : admission_date,
+        "student_status":student_status
     }
 
     return student
