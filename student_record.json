@@ -447,21 +447,5 @@
         "semester": "1",
         "admission_date": "2026-10-14",
         "student_status": "N/A"
-    },
-    {
-        "name": "aaa",
-        "date_of_birth": "1992-08-26",
-        "age": 34,
-        "Register_Number": "2026MCA026",
-        "course": "MCA",
-        "department": "Computer Applications",
-        "gender": "MALE",
-        "email": "MAIL@gmail.com",
-        "phone": "1234567890",
-        "adress": "ddddd",
-        "Admission_year": "2026",
-        "semester": "1",
-        "admission_date": "2026-10-14",
-        "student_status": "ACTIVE"
     }
 ]

@@ -58,3 +58,32 @@ def edit_student():
     save_records(students)
 
     print("Student record updated successfully!")
+
+
+""" This function will delete the student record """
+
+def delete_student():
+    register_number = input("Please enter the register number to delete the student: ").strip()
+
+    view_delete = load_records()
+
+    for record in view_delete:
+        if record["Register_Number"] == register_number:
+            print(record)
+            confirmation = input("Are you sure you want to delete this student? (yes/no): ")
+
+            if confirmation.lower() == "yes":
+                view_delete.remove(record)
+                print("Student Deletion Confirmed")
+                save_records(view_delete)
+                print("Student Record deleted Successfully")
+            else:
+                print("Not Deleting the student")
+
+
+
+
+
+
+
+

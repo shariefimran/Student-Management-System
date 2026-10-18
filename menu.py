@@ -2,7 +2,8 @@ menu_item=[
     "Add Student",
     "View Students",
     "Search Student",
-    "Edit Studen Info",
+    "Edit Student Info",
+    "Delete Student Info",
     "Exit"
 ]
 
