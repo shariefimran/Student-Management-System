@@ -81,6 +81,23 @@ def delete_student():
                 print("Not Deleting the student")
 
 
+""" this function will filter the students"""
+
+def filter_student():
+
+    course=input("Please Enter the course you want to check : ")
+    
+    found = False
+    
+    for record in students:
+        if record["course"]== course:
+            print(record)
+            found=True
+    
+    if found== False:  
+        print("Not available")
+
+
 
 
 

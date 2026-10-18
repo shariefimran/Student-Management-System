@@ -26,8 +26,10 @@ def main():
         elif choice == "4":
             edit_student()
         elif choice == "5":
-            delete_student()         
-        elif choice =="6":
+            delete_student()   
+        elif choice == "6":
+            filter_student()      
+        elif choice =="7":
             print("Good Bye")
             break
             
