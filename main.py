@@ -28,8 +28,10 @@ def main():
         elif choice == "5":
             delete_student()   
         elif choice == "6":
-            filter_student()      
-        elif choice =="7":
+            filter_student()
+        elif choice == "7":
+            sort_student()      
+        elif choice =="8":
             print("Good Bye")
             break
             

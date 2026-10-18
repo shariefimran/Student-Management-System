@@ -100,6 +100,28 @@ def filter_student():
 
 
 
+""" this function will use for sorting the students"""
+
+def sort_student():
+    
+    sort_option=input("Please Enter the choice if sorting (name or age)")
+
+    if sort_option.lower() == "name":
+        students.sort(key = lambda record : record["name"])
+        print(students)
+    elif sort_option.lower() == "age":
+        students.sort(key=lambda record : record["age"])
+        print(students)
+    else:
+        print("Invalid sorting choice. Please enter name or age.")
+
+
+
+
+
+   
+
+
 
 
 
