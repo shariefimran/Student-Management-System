@@ -2,7 +2,7 @@ from menu import show_menu
 
 from Students_Data import add_student,view_students,students
 from storage import save_records,load_records
-from Student_management import search_student
+from Student_management import search_student,edit_student
 
 
 
@@ -23,7 +23,9 @@ def main():
             view_students()
         elif choice == "3":
             search_student()
-        elif choice =="4":
+        elif choice == "4":
+            edit_student()            
+        elif choice =="5":
             print("Good Bye")
             break
             
