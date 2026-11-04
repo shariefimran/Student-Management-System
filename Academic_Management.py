@@ -20,7 +20,6 @@ def add_subject():
     # save_subjects(subjects)
     # print(f"{subject} added successfully")
     # return (subjects)
-
     subject_exists=False
 
     for existing_subject in subjects:
@@ -37,9 +36,16 @@ def add_subject():
         subjects.append(subject)
         save_subjects(subjects)
         print("Subject added Successfully")
-
-
-
-
 add_subject()
 
+
+def view_subject():
+
+    view_subjects=load_subjects()
+    if not view_subjects:
+        print("there are no subjects in the db")
+    else:
+        for subject in view_subjects:
+            print(f"{subject['subject_name'] } | {subject['subject_code']}")
+
+view_subject()
