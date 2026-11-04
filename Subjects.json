@@ -2,5 +2,17 @@
     {
         "subject_name": "dbms",
         "subject_code": "DB001"
+    },
+    {
+        "subject_name": "python",
+        "subject_code": "PY001"
+    },
+    {
+        "subject_name": "python",
+        "subject_code": "PY001"
+    },
+    {
+        "subject_name": "java",
+        "subject_code": "JA001"
     }
 ]
