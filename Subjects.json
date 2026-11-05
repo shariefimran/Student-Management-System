@@ -4,15 +4,15 @@
         "subject_code": "DB001"
     },
     {
-        "subject_name": "coputer graphics",
-        "subject_code": "SD001"
-    },
-    {
         "subject_name": "python",
         "subject_code": "SYS001"
     },
     {
         "subject_name": "java",
         "subject_code": "JA001"
+    },
+    {
+        "subject_name": "cgi",
+        "subject_code": "CG001"
     }
 ]

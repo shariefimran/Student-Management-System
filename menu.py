@@ -6,6 +6,7 @@ menu_item=[
     "Delete Student Info",
     "Filter Student",
     "Sort Student",
+    "Acadenic Management",
     "Exit"
 ]
 

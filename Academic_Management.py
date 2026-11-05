@@ -124,6 +124,50 @@ def update_data():
         print("Subject Updated Successfully")
     elif not duplicate_found:
         print("Subject code not found")
-update_data()
+# update_data()
 
-        
+
+
+def delete_subject():
+
+    subject_found = False
+
+    subject_delete=input("Please Enter the subject code to delete : ").strip().upper()
+
+    subjects=load_subjects()
+
+    for subject in subjects:
+        if subject['subject_code']== subject_delete:
+            subject_found = True
+            subjects.remove(subject)
+            break
+           
+    if subject_found:
+            save_subjects(subjects)
+            print("Subject deleted Successfully")
+    else:
+            print("Subject Not Found")
+# delete_subject()
+
+def academic_management_menu():
+    while True:
+        print("\n===== Academic Management =====")
+        print("1. Add Subject")
+        print("2. View Subjects")
+        print("3. Update Subject")
+        print("4. Delete Subject")
+        print("5. Back to Main Menu")
+
+        choice = input("Enter your choice: ").strip()
+        if choice=="1":
+            add_subject()
+        elif choice=="2":
+            view_subject()
+        elif choice == "3":
+            update_data()
+        elif choice == "4":
+            delete_subject()
+        elif choice == "5":
+            break
+        else:
+            print("Invalid choice")

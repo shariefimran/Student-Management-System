@@ -3,6 +3,7 @@ from menu import show_menu
 from Students_Data import add_student,view_students,students
 from storage import save_records,load_records
 from Student_management import *
+from Academic_Management import *
 
 
 
@@ -30,8 +31,10 @@ def main():
         elif choice == "6":
             filter_student()
         elif choice == "7":
-            sort_student()      
+            sort_student() 
         elif choice =="8":
+            academic_management_menu() 
+        elif choice =="9":
             print("Good Bye")
             break
             
