@@ -1,0 +1,134 @@
+from Student_Academic import *
+from storage import *
+from Academic_Management import *
+
+def add_marks():
+    student_found=False
+    subject_found=False
+
+    records=load_records()
+    subjects=load_subjects()
+    marks_records=load_marks()
+
+  
+
+    register_number=input("Please Enter The Register Number : ").strip().upper()
+
+    for record in records:
+        if record['Register_Number'] == register_number:
+            student_found = True
+            break
+    if not student_found:
+        print("Student Not Found")
+        return
+    else:
+        print("Student Found")
+
+    subject_code=input("Please Enter the Subjcet Code : ").strip().upper()
+    course=input("Please Enter the course : ").strip().lower()
+    semester=int(input("please enter the semester : "))
+
+    for subject in subjects:
+        if subject['subject_code']==subject_code:
+            subject_found=True
+            break
+    if not subject_found:
+        print("Subject Not Found")
+        return
+    else:
+        print("Subject Found")
+
+    try:
+        marks_obtained=int(input("Please Enter The Marks : "))
+        if marks_obtained >= 0 and marks_obtained <=100:
+            print("marks added successfully")
+            marks_data={
+                    "register_number":register_number,
+                    "subject_code":subject_code,
+                    "marks":marks_obtained,
+                    "course":course,
+                    "semester": semester
+
+                }
+            marks_records.append(marks_data)
+            save_marks(marks_records)
+        else:
+            print("Marks must be between 0 and 100")
+    except ValueError:
+        print("Invalid Marks Please check")
+
+    
+    
+
+# add_marks()
+
+
+       
+# allocate_subjects()
+
+def allocate_subjects():
+    student_found = False
+
+    records = load_records()
+    subjects = load_subjects()
+
+    register_number = input("Please Enter The Register Number: ").strip().upper()
+
+    for record in records:
+        if record['Register_Number'] == register_number:
+            student_course = record['course']
+            student_semester = int(record['semester'])
+            student_found = True
+            break
+
+    if not student_found:
+        print("Student Not Found")
+        return
+    else:
+        print("Student Found")
+
+    view_subject()
+
+    selected_subjects = []
+
+    while True:
+        subject_code = input(
+            "Please Enter the Subject Code (or DONE): "
+        ).strip().upper()
+
+        if subject_code == "DONE":
+            break
+
+        subject_found = False
+
+        for subject in subjects:
+            if (subject['subject_code'] == subject_code
+                    and subject['course'] == student_course
+                    and subject['semester'] == student_semester):
+
+                subject_found = True
+                break
+
+        if not subject_found:
+            print("Subject Not Found")
+            continue
+        else:
+            print("Subject Found")
+            selected_subjects.append(subject_code)
+    if not selected_subjects:
+        print("No Subjects Selected")
+        return
+    allocation_data = {
+    "register_number": register_number,
+    "course": student_course,
+    "semester": student_semester,
+    "subject_codes": selected_subjects
+}
+    allocations = load_student_subjects()
+    allocations.append(allocation_data)
+    save_student_subjects(allocations)
+allocate_subjects()
+
+
+
+

@@ -1,18 +1,20 @@
 [
     {
-        "subject_name": "dbms",
-        "subject_code": "DB001"
-    },
-    {
-        "subject_name": "python",
-        "subject_code": "SYS001"
+        "subject_name": "maths",
+        "subject_code": "MS001",
+        "course": "MCA",
+        "semester": 1
     },
     {
         "subject_name": "java",
-        "subject_code": "JA001"
+        "subject_code": "JA002",
+        "course": "MCA",
+        "semester": 1
     },
     {
-        "subject_name": "cgi",
-        "subject_code": "CG001"
+        "subject_name": "graphics",
+        "subject_code": "GP003",
+        "course": "MCA",
+        "semester": 1
     }
 ]

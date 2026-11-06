@@ -9,10 +9,15 @@ def add_subject():
 
     subject_name=input("Please Enter the subject name : ").strip().lower()
     subject_code=input("Please Enter the subject code : ").strip().upper()
+    course=input("Please Enter the course : ").strip().upper()
+    semester=int(input("Please Enter the semester : ").strip().upper())
 
     subject={
         "subject_name":subject_name,
-        "subject_code": subject_code
+        "subject_code": subject_code,
+        "course": course,
+        "semester":semester,
+
     }
 
     subjects=load_subjects()

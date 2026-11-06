@@ -133,16 +133,7 @@ def load_records():
         if "student_status" not in record:
             record['student_status']='N/A'
             migration_needed=True
-
-    
-
-            
-             
-
-           
-
-
-
+ 
     # Step 3: Save only if migration was required
     if migration_needed:
         save_records(records)

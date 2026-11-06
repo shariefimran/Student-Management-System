@@ -1,0 +1,12 @@
+[
+    {
+        "register_number": "2026MCA024",
+        "course": "MCA",
+        "semester": 1,
+        "subject_codes": [
+            "MS001",
+            "JA002",
+            "GP003"
+        ]
+    }
+]
