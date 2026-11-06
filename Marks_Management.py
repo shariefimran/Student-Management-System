@@ -125,6 +125,7 @@ def allocate_subjects():
     "subject_codes": selected_subjects
 }
     allocations = load_student_subjects()
+
     allocations.append(allocation_data)
     save_student_subjects(allocations)
 allocate_subjects()

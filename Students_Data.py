@@ -276,6 +276,10 @@ def add_student():
         else:
             print("Please enter the valid status")
 
+    
+
+
+
 
 
 
@@ -295,7 +299,7 @@ def add_student():
 
 
                 
-    
+ 
 
     # Create student record
     student = {
