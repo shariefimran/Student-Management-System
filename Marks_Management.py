@@ -71,6 +71,7 @@ def allocate_subjects():
 
     records = load_records()
     subjects = load_subjects()
+    
 
     register_number = input("Please Enter The Register Number: ").strip().upper()
 
@@ -125,9 +126,18 @@ def allocate_subjects():
     "subject_codes": selected_subjects
 }
     allocations = load_student_subjects()
+    allocations_exists=False
 
-    allocations.append(allocation_data)
-    save_student_subjects(allocations)
+    for allocation in allocations:
+        if allocation['register_number']==register_number and allocation['semester']==student_semester:
+            allocations_exists=True
+            break
+    if allocations_exists:
+        print("Student data already exists for this semester")
+    else:
+        allocations.append(allocation_data)
+        save_student_subjects(allocations)
+
 allocate_subjects()
 
 
