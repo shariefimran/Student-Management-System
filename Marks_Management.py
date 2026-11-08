@@ -138,8 +138,51 @@ def allocate_subjects():
         allocations.append(allocation_data)
         save_student_subjects(allocations)
 
-allocate_subjects()
+# allocate_subjects()
 
+
+
+def update_subject_allocation():
+    """Add more subjects to the existing subject list."""
+
+    existing_allocation = load_student_subjects()
+
+    register_number = input(
+        "Please Enter the Register Number: "
+    ).strip().upper()
+
+    allocation_found = False
+
+    for allocation in existing_allocation:
+        if allocation['register_number'] == register_number:
+            allocation_found = True
+            break
+
+    if not allocation_found:
+        print("No existing allocation")
+        return
+    else:
+        print("Existing Allocation Found")
+        print(f"Allocated subjects are: {allocation['subject_codes']}")
+
+    existing_subjects = allocation['subject_codes']
+
+    additional_subject = input(
+        "Please enter the subject to add: "
+    ).strip().upper()
+
+    if additional_subject in existing_subjects:
+        print("Entered Subject already present")
+    else:
+        existing_subjects.append(additional_subject)
+        save_student_subjects(existing_allocation)
+        print("Subject added successfully")
+            
+update_subject_allocation()
+    
+
+
+    
 
 
 
