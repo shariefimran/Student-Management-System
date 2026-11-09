@@ -152,11 +152,12 @@ def update_subject_allocation():
     register_number = input(
         "Please Enter the Register Number: "
     ).strip().upper()
+    semester=int(input("Please Enter the semester number : "))
 
     allocation_found = False
 
     for allocation in existing_allocation:
-        if allocation['register_number'] == register_number:
+        if allocation['register_number'] == register_number and allocation['semester']== semester:
             allocation_found = True
             break
 
