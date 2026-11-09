@@ -146,6 +146,8 @@ def update_subject_allocation():
     """Add more subjects to the existing subject list."""
 
     existing_allocation = load_student_subjects()
+    subjects = load_subjects()
+    subject_found=False
 
     register_number = input(
         "Please Enter the Register Number: "
@@ -171,7 +173,13 @@ def update_subject_allocation():
         "Please enter the subject to add: "
     ).strip().upper()
 
-    if additional_subject in existing_subjects:
+    for subject in subjects:
+        if subject['subject_code'] == additional_subject and subject['course'] == allocation['course'] and subject['semester'] == allocation['semester']:
+            subject_found=True
+            break
+    if not subject_found:
+        print("Invalid subject or subject does not belong to this course/semester")
+    elif additional_subject in existing_subjects:
         print("Entered Subject already present")
     else:
         existing_subjects.append(additional_subject)

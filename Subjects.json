@@ -16,5 +16,11 @@
         "subject_code": "GP003",
         "course": "MCA",
         "semester": 1
+    },
+    {
+        "subject_name": "lld001",
+        "subject_code": "LL01",
+        "course": "MCA",
+        "semester": 1
     }
 ]
